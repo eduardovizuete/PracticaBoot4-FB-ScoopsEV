@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class MainTimeLine: UITableViewController {
 
@@ -15,12 +16,13 @@ class MainTimeLine: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // incluir eventos analiticas
+        FIRAnalytics.setScreenName("MainTimeLine Controller", screenClass: "MainTimeLine")
+        
+        // anonuymous signin
+        makeAnonymousLogin()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         self.refreshControl?.addTarget(self, action: #selector(hadleRefresh(_:)), for: UIControlEvents.valueChanged)
     }
     
@@ -69,6 +71,37 @@ class MainTimeLine: UITableViewController {
             // aqui pasamos el item selecionado
         }
     }
+
+    // MARK: - Utils
+    
+    
+    fileprivate func makeAnonymousLogin() {
+        makeLogout()
+        
+        FIRAuth.auth()?.signInAnonymously(completion: { (user, error) in
+            if let _ = error {
+                print("Aqui error para anonimo: \(error?.localizedDescription)")
+                return
+            }
+            print("Login usuario anonimo: \(user?.uid)")
+        })
+    }
+    
+    // make logout from account
+    fileprivate func makeLogout() {
+        if let _ = FIRAuth.auth()?.currentUser {
+            do {
+                // sign out anonymous
+                try FIRAuth.auth()?.signOut()
+                
+                // sign out google provider
+                //GIDSignIn.sharedInstance().signOut()
+            } catch let error {
+                print(error)
+            }
+        }
+    }
+
 
 
 }
