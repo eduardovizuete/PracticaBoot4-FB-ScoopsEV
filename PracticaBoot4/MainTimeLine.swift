@@ -13,6 +13,7 @@ class MainTimeLine: UITableViewController {
 
     var model = ["post1", "post2"]
     let cellIdentier = "POSTSCELL"
+    var handle : FIRAuthStateDidChangeListenerHandle!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,15 @@ class MainTimeLine: UITableViewController {
         makeAnonymousLogin()
 
         self.refreshControl?.addTarget(self, action: #selector(hadleRefresh(_:)), for: UIControlEvents.valueChanged)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        handle = FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
+            print("El mail del usuario logueado es \(String(describing: user?.email))")
+            self.getUserInfo(user)
+        })
     }
     
     func hadleRefresh(_ refreshControl: UIRefreshControl) {
@@ -101,7 +111,19 @@ class MainTimeLine: UITableViewController {
             }
         }
     }
-
-
-
+    
+    func getUserInfo(_ user: FIRUser!) {
+        if let _ = user, !user.isAnonymous {
+            let uid = user.uid
+            print(uid)
+            
+            let userDisplay = user.displayName
+            self.title = userDisplay
+    
+            //if let picProfile = user.photoURL as URL! {
+                // sincronizar con la vista
+            //    self.urlPhoto = picProfile
+            //}
+        }
+    }
 }
