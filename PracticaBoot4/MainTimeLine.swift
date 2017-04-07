@@ -11,7 +11,8 @@ import Firebase
 
 class MainTimeLine: UITableViewController {
 
-    var model = ["post1", "post2"]
+    let newsRef = FIRDatabase.database().reference().child("News")
+    var model : [New] = []
     let cellIdentier = "POSTSCELL"
     var handle : FIRAuthStateDidChangeListenerHandle!
     
@@ -23,6 +24,8 @@ class MainTimeLine: UITableViewController {
         
         // anonuymous signin
         makeAnonymousLogin()
+        
+        //addRecordinPosts()
 
         self.refreshControl?.addTarget(self, action: #selector(hadleRefresh(_:)), for: UIControlEvents.valueChanged)
     }
@@ -34,6 +37,21 @@ class MainTimeLine: UITableViewController {
             print("El mail del usuario logueado es \(String(describing: user?.email))")
             self.getUserInfo(user)
         })
+        
+        newsRef.observe(FIRDataEventType.childAdded, with: {(snap) in
+            for myNewfb in snap.children {
+                let myNew = New(snap: myNewfb as? FIRDataSnapshot)
+                self.model.append(myNew)
+            }
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+            
+        }) { (error) in
+            print(error)
+        }
+
     }
     
     func hadleRefresh(_ refreshControl: UIRefreshControl) {
@@ -60,7 +78,7 @@ class MainTimeLine: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentier, for: indexPath)
 
-        cell.textLabel?.text = model[indexPath.row]
+        cell.textLabel?.text = model[indexPath.row].title
 
         return cell
     }
@@ -125,5 +143,16 @@ class MainTimeLine: UITableViewController {
             //    self.urlPhoto = picProfile
             //}
         }
+    }
+    
+    func addRecordinPosts() {
+        
+        let key = newsRef.child("new").childByAutoId().key
+        
+        let new = ["title": "Noticia 1", "desc" : "Desc noticia 1", "author": "autor n1"]
+        
+        let recordInFB = ["\(key)" : new]
+        
+        newsRef.child("new").updateChildValues(recordInFB)
     }
 }
