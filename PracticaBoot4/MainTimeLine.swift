@@ -13,6 +13,7 @@ class MainTimeLine: UITableViewController {
 
     let newsRef = FIRDatabase.database().reference().child("News")
     var model : [New] = []
+    var modelSelec = New()
     let cellIdentier = "POSTSCELL"
     var handle : FIRAuthStateDidChangeListenerHandle!
     
@@ -88,7 +89,10 @@ class MainTimeLine: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        modelSelec = model[indexPath.row]
+        
         performSegue(withIdentifier: "ShowRatingPost", sender: indexPath)
+
     }
 
 
@@ -101,6 +105,7 @@ class MainTimeLine: UITableViewController {
         if segue.identifier == "ShowRatingPost" {
             let vc = segue.destination as! PostReview
             // aqui pasamos el item selecionado
+            vc.model = modelSelec
         }
     }
 

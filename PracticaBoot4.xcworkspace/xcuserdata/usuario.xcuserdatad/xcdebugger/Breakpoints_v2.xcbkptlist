@@ -6,63 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "MainTimeLine"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
+            timestampString = "513624458.307589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "prepare(for:sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "MainTimeLine"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "makeAnonymousLogin()"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,93 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
+            timestampString = "513624458.307589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "prepare(for:sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "MainTimeLine"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "MainTimeLine"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513191193.891374"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PracticaBoot4.MainTimeLine.viewWillAppear (Swift.Bool) -&gt; ()"
-                  moduleName = "PracticaBoot4"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/MainTimeLine.swift"
-                  timestampString = "513620418.319073"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "142">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PracticaBoot4.MainTimeLine.(viewWillAppear (Swift.Bool) -&gt; ()).(closure #1)"
-                  moduleName = "PracticaBoot4"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/MainTimeLine.swift"
-                  timestampString = "513620418.326882"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,27 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
+            timestampString = "513624458.307589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "MainTimeLine"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "makeAnonymousLogin()"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
+            timestampString = "513624458.307589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "MainTimeLine"
             landmarkType = "3">
          </BreakpointContent>
@@ -218,45 +74,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513537303.438976"
+            timestampString = "513624458.307589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/MainTimeLine.swift"
+            timestampString = "513624458.307589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/MainTimeLine.swift"
+            timestampString = "513624458.307589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
             endingLineNumber = "44"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513537303.438976"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -266,12 +122,12 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/MainTimeLine.swift"
-                  timestampString = "513620418.415462"
+                  timestampString = "513634946.710154"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "667">
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "670">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -281,11 +137,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/MainTimeLine.swift"
-                  timestampString = "513620418.422066"
+                  timestampString = "513634946.71747"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
@@ -298,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/MainTimeLine.swift"
-            timestampString = "513618737.61757"
+            timestampString = "513624458.307589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "addRecordinPosts()"
             landmarkType = "7">
          </BreakpointContent>
@@ -314,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513538654.428403"
+            timestampString = "513635088.59763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
             landmarkName = "login(_:andPass:)"
             landmarkType = "7">
             <Locations>
@@ -330,12 +186,12 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/AuthorPostList.swift"
-                  timestampString = "513620418.450436"
+                  timestampString = "513634946.756989"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "179"
-                  endingLineNumber = "179"
-                  offsetFromSymbolStart = "43">
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "163">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -345,11 +201,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/AuthorPostList.swift"
-                  timestampString = "513620418.456774"
+                  timestampString = "513634946.764362"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "181"
-                  endingLineNumber = "181"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
                   offsetFromSymbolStart = "51">
                </Location>
             </Locations>
@@ -362,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513538654.428403"
+            timestampString = "513635088.59763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
             landmarkName = "login(_:andPass:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -378,28 +234,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513538654.428403"
+            timestampString = "513632847.910169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513617279.097757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
-            landmarkName = "login(_:andPass:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -458,7 +298,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/New.swift"
-                  timestampString = "513620418.50188"
+                  timestampString = "513634946.804351"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -473,7 +313,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/New.swift"
-                  timestampString = "513620418.511015"
+                  timestampString = "513634946.810756"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -481,6 +321,195 @@
                   offsetFromSymbolStart = "4">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/MainTimeLine.swift"
+            timestampString = "513623982.295243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/PostReview.swift"
+            timestampString = "513623155.783351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PostReview"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.PostReview.__deallocating_deinit"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
+                  timestampString = "513634946.833883"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.PostReview.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PracticaBoot4.PostReview"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
+                  timestampString = "513634946.840047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.PostReview.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PracticaBoot4.PostReview"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
+                  timestampString = "513634946.849526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.PostReview.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PracticaBoot4.PostReview&gt;"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
+                  timestampString = "513634946.855652"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.PostReview.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PracticaBoot4.PostReview&gt;"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
+                  timestampString = "513634946.86484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/PostReview.swift"
+            timestampString = "513624537.89187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/AuthorPostList.swift"
+            timestampString = "513635088.59763"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/NewPostController.swift"
+            timestampString = "513632994.373576"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/NewPostController.swift"
+            timestampString = "513633050.352678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "savePostInCloud(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/AuthorPostList.swift"
+            timestampString = "513634495.669289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

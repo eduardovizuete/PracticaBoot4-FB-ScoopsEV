@@ -9,6 +9,8 @@
 import UIKit
 
 class PostReview: UIViewController {
+    
+    var model = New()
 
     @IBOutlet weak var rateSlider: UISlider!
     @IBOutlet weak var imagePost: UIImageView!
@@ -18,6 +20,9 @@ class PostReview: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        titleTxt.text = model.title
+        postTxt.text = model.desc
     }
 
     override func didReceiveMemoryWarning() {

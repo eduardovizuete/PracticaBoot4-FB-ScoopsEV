@@ -14,12 +14,13 @@ class AuthorPostList: UITableViewController {
 
     let cellIdentifier = "POSTAUTOR"
     
-    //var model = ["test1", "test2"]
     var model : [New] = []
     
     let newsRef = FIRDatabase.database().reference().child("News")
     
     var handle : FIRAuthStateDidChangeListenerHandle!
+    
+    var userAuth : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +43,8 @@ class AuthorPostList: UITableViewController {
         handle = FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
             print("El mail del usuario logueado es \(String(describing: user?.email))")
         })
+        
+        readDataCloud(userAuth)
     }
     
     func hadleRefresh(_ refreshControl: UIRefreshControl) {
@@ -120,15 +123,21 @@ class AuthorPostList: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "addNewPost" {
+            let vc = segue.destination as! NewPostController
+            // aqui pasamos los datos del autor autenticado
+            vc.userAuth = userAuth
+        }
     }
-    */
+    
     
     //MARK: Metodo para capturar las credenciales del usuario
     
@@ -176,6 +185,9 @@ class AuthorPostList: UITableViewController {
     }
     
     fileprivate func login(_ name: String, andPass pass: String) {
+        
+        userAuth = ""
+        
         FIRAuth.auth()?.signIn(withEmail: name, password: pass, completion: { (user, error) in
             
             if let _ = error {
@@ -195,24 +207,29 @@ class AuthorPostList: UITableViewController {
             print("user: \(String(describing: user?.email!))")
         })
         
-        model = []
+        readDataCloud(name)
         
+        userAuth = name
+
+    }
+    
+    fileprivate func readDataCloud(_ nameUser: String) {
+        model = []
         newsRef.observe(FIRDataEventType.childAdded, with: {(snap) in
             for myNewfb in snap.children {
                 let myNew = New(snap: myNewfb as? FIRDataSnapshot)
-                if myNew.author == name {
+                if myNew.author == nameUser {
                     self.model.append(myNew)
                 }
             }
-            
+    
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
-            
+    
         }) { (error) in
             print(error)
         }
-
     }
 
 }

@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Firebase
 
 class NewPostController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var titlePostTxt: UITextField!
     @IBOutlet weak var textPostTxt: UITextField!
     @IBOutlet weak var imagePost: UIImageView!
+    
+    var userAuth : String = ""
+    let newsRef = FIRDatabase.database().reference().child("News")
     
     var isReadyToPublish: Bool = false
     var imageCaptured: UIImage! {
@@ -41,7 +45,31 @@ class NewPostController: UIViewController, UIImagePickerControllerDelegate, UINa
 
     @IBAction func savePostInCloud(_ sender: Any) {
         // preparado para implementar codigo que persita en el cloud 
+        
+        guard let tit = titlePostTxt.text else {
+            return
+        }
+        
+        guard let desc = textPostTxt.text else {
+            return
+        }
+        
+        if titlePostTxt.text != "" && textPostTxt.text != "" {
+            let key = newsRef.child("new").childByAutoId().key
+            
+            let new = ["title": tit as String,
+                       "desc" : desc as String,
+                       "author": userAuth,
+                       "publish": "false",
+                       "date": NSDate().description
+                ] as [String : Any]
+            
+            let recordInFB = ["\(key)" : new]
+            
+            newsRef.child("new").updateChildValues(recordInFB)
+        }
     }
+    
     /*
     // MARK: - Navigation
 
@@ -56,7 +84,7 @@ class NewPostController: UIViewController, UIImagePickerControllerDelegate, UINa
     internal func pushAlertCameraLibrary() -> UIAlertController {
         let actionSheet = UIAlertController(title: NSLocalizedString("Selecciona la fuente de la imagen", comment: ""), message: NSLocalizedString("", comment: ""), preferredStyle: .actionSheet)
         
-        let libraryBtn = UIAlertAction(title: NSLocalizedString("Ussar la libreria", comment: ""), style: .default) { (action) in
+        let libraryBtn = UIAlertAction(title: NSLocalizedString("Usar la libreria", comment: ""), style: .default) { (action) in
             self.takePictureFromCameraOrLibrary(.photoLibrary)
             
         }
