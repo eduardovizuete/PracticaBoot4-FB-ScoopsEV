@@ -38,10 +38,14 @@ class MainTimeLine: UITableViewController {
             self.getUserInfo(user)
         })
         
+        model = []
+        
         newsRef.observe(FIRDataEventType.childAdded, with: {(snap) in
             for myNewfb in snap.children {
                 let myNew = New(snap: myNewfb as? FIRDataSnapshot)
-                self.model.append(myNew)
+                if myNew.publish == "true" {
+                    self.model.append(myNew)
+                }
             }
             
             DispatchQueue.main.async {

@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class AuthorPostList: UITableViewController {
 
     let cellIdentifier = "POSTAUTOR"
     
-    var model = ["test1", "test2"]
+    //var model = ["test1", "test2"]
+    var model : [New] = []
+    
+    let newsRef = FIRDatabase.database().reference().child("News")
+    
+    var handle : FIRAuthStateDidChangeListenerHandle!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +30,18 @@ class AuthorPostList: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
+        // autenticacion con email
+        showUserLoginDialog(actionCmd: login, userAction: .toLogin)
+        
         self.refreshControl?.addTarget(self, action: #selector(hadleRefresh(_:)), for: UIControlEvents.valueChanged)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        handle = FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
+            print("El mail del usuario logueado es \(String(describing: user?.email))")
+        })
     }
     
     func hadleRefresh(_ refreshControl: UIRefreshControl) {
@@ -48,7 +66,8 @@ class AuthorPostList: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-        cell.textLabel?.text = model[indexPath.row]
+        
+        cell.textLabel?.text = model[indexPath.row].title
     
         return cell
     }
@@ -110,5 +129,90 @@ class AuthorPostList: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //MARK: Metodo para capturar las credenciales del usuario
+    
+    enum ActionUser: String {
+        case toLogin = "Login with email"
+        case toSignIn = "Registrar nuevo usuario"
+    }
+    
+    typealias actionUserCmd = (_ : String, _ : String) -> Void
+    
+    func showUserLoginDialog(actionCmd: @escaping actionUserCmd, userAction: ActionUser) {
+        
+        let alertController = UIAlertController(title: "FireBase Practica", message: userAction.rawValue, preferredStyle: .alert)
+        
+        alertController.addAction(UIAlertAction(title: userAction.rawValue,
+                                                style: .default, handler: { (action) in
+                                                    let eMailTxt = (alertController.textFields?[0])! as UITextField
+                                                    let passTxt = (alertController.textFields?[1])! as UITextField
+                                                    
+                                                    if (eMailTxt.text?.isEmpty)!, (passTxt.text?.isEmpty)! {
+                                                        // no continuar y lanzar error
+                                                        
+                                                    } else {
+                                                        actionCmd(eMailTxt.text!,
+                                                                  passTxt.text!)
+                                                    }
+        }))
+        
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action) in
+            
+        }))
+        
+        alertController.addTextField { (txtField) in
+            txtField.placeholder = "Por favor escriba su email"
+            txtField.textAlignment = .natural
+        }
+        
+        alertController.addTextField { (txtField) in
+            txtField.placeholder = "su password"
+            txtField.textAlignment = .natural
+            txtField.isSecureTextEntry = true
+        }
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    fileprivate func login(_ name: String, andPass pass: String) {
+        FIRAuth.auth()?.signIn(withEmail: name, password: pass, completion: { (user, error) in
+            
+            if let _ = error {
+                print("tenemos un error -> \(String(describing: user?.email))")
+                
+                FIRAuth.auth()?.createUser(withEmail: name, password: pass, completion: { (user, error) in
+                    if let _ = error {
+                        print("tenemos un error -> \(String(describing: user?.email)) \(error?.localizedDescription)")
+                        return
+                    }
+                    
+                    print("\(String(describing: user))")
+                })
+                
+                return
+            }
+            print("user: \(String(describing: user?.email!))")
+        })
+        
+        model = []
+        
+        newsRef.observe(FIRDataEventType.childAdded, with: {(snap) in
+            for myNewfb in snap.children {
+                let myNew = New(snap: myNewfb as? FIRDataSnapshot)
+                if myNew.author == name {
+                    self.model.append(myNew)
+                }
+            }
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+            
+        }) { (error) in
+            print(error)
+        }
+
+    }
 
 }
