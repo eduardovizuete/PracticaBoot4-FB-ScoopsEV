@@ -11,6 +11,7 @@ import Firebase
 
 class New: NSObject {
     
+    var key         : String
     var title       : String
     var desc        : String
     var author      : String
@@ -18,7 +19,8 @@ class New: NSObject {
     var date        : String
     var refInCloud  : FIRDatabaseReference?
     
-    init(title: String, desc: String, author: String, publish: String, date: String) {
+    init(key: String, title: String, desc: String, author: String, publish: String, date: String) {
+        self.key = key
         self.title = title
         self.desc = desc
         self.author = author
@@ -29,6 +31,7 @@ class New: NSObject {
     
     init(snap: FIRDataSnapshot?) {
         self.refInCloud = snap?.ref
+        key = (snap?.ref.key)!
         desc = (snap?.value as? [String: Any])?["desc"] as! String
         title = (snap?.value as? [String: Any])?["title"] as! String
         author = (snap?.value as? [String: Any])?["author"] as! String
@@ -37,7 +40,7 @@ class New: NSObject {
     }
     
     convenience override init() {
-        self.init(title: "", desc: "", author: "", publish: "", date: "")
+        self.init(key: "", title: "", desc: "", author: "", publish: "", date: "")
     }
     
 }

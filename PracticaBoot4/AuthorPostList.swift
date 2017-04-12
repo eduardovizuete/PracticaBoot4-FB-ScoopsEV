@@ -79,11 +79,37 @@ class AuthorPostList: UITableViewController {
         
         let publish = UITableViewRowAction(style: .normal, title: "Publicar") { (action, indexPath) in
             // Codigo para publicar el post
+            
+            let modelSelec = self.model[indexPath.row]
+            
+            let key = modelSelec.key
+            
+            let new = ["title": modelSelec.title,
+                       "desc" : modelSelec.desc,
+                       "author": self.userAuth,
+                       "publish": "true",
+                       "date": NSDate().description
+                ] as [String : Any]
+            
+            let recordInFB = ["\(key)" : new]
+            
+            self.newsRef.child("new").updateChildValues(recordInFB)
+            
+            self.readDataCloud(self.userAuth)
         }
+        
         publish.backgroundColor = UIColor.green
+        
         let deleteRow = UITableViewRowAction(style: .destructive, title: "Eliminar") { (action, indexPath) in
             // codigo para eliminar
+            
+            let modelSelec = self.model[indexPath.row]
+            let key = modelSelec.key
+            self.newsRef.child("new").child(key).removeValue()
+            
+            self.readDataCloud(self.userAuth)
         }
+        
         return [publish, deleteRow]
     }
 
