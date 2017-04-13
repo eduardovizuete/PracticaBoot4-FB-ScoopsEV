@@ -122,7 +122,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/MainTimeLine.swift"
-                  timestampString = "513661893.765394"
+                  timestampString = "513744675.687392"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -137,7 +137,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/MainTimeLine.swift"
-                  timestampString = "513661893.771307"
+                  timestampString = "513744675.692929"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "45"
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513662641.696899"
+            timestampString = "513723497.066054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
             landmarkName = "showUserLoginDialog(actionCmd:userAction:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513662641.696899"
+            timestampString = "513723497.066054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
             landmarkName = "showUserLoginDialog(actionCmd:userAction:)"
             landmarkType = "7">
             <Locations>
@@ -202,11 +202,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/AuthorPostList.swift"
-                  timestampString = "513661893.814784"
+                  timestampString = "513744675.726689"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "206"
-                  endingLineNumber = "206"
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
                   offsetFromSymbolStart = "1161">
                </Location>
                <Location
@@ -217,11 +217,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/AuthorPostList.swift"
-                  timestampString = "513661893.822119"
+                  timestampString = "513744675.733464"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "207"
-                  endingLineNumber = "207"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/New.swift"
-            timestampString = "513637701.397211"
+            timestampString = "513721129.641457"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "init(snap:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/New.swift"
-            timestampString = "513637701.397211"
+            timestampString = "513721129.641457"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "init(snap:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/New.swift"
-            timestampString = "513637701.397211"
+            timestampString = "513721129.641457"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "init(snap:)"
             landmarkType = "7">
             <Locations>
@@ -298,11 +298,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/New.swift"
-                  timestampString = "513661893.849343"
+                  timestampString = "513744675.755104"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
                   offsetFromSymbolStart = "31">
                </Location>
                <Location
@@ -313,7 +313,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/New.swift"
-                  timestampString = "513661893.855311"
+                  timestampString = "513744675.760905"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/PostReview.swift"
-            timestampString = "513623155.783351"
+            timestampString = "513744673.346256"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "PostReview"
             landmarkType = "3">
             <Locations>
@@ -362,7 +362,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
-                  timestampString = "513661893.885877"
+                  timestampString = "513744675.782026"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -377,11 +377,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
-                  timestampString = "513661893.894647"
+                  timestampString = "513744675.786547"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "57">
                </Location>
                <Location
@@ -392,7 +392,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
-                  timestampString = "513661893.902702"
+                  timestampString = "513744675.792185"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -407,7 +407,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
-                  timestampString = "513661893.913982"
+                  timestampString = "513744675.800718"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -422,11 +422,11 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/PostReview.swift"
-                  timestampString = "513661893.922489"
+                  timestampString = "513744675.805423"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
@@ -439,11 +439,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/PostReview.swift"
-            timestampString = "513624537.89187"
+            timestampString = "513744673.346256"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -455,11 +455,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513662641.696899"
+            timestampString = "513723497.066054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "AuthorPostList"
             landmarkType = "3">
          </BreakpointContent>
@@ -519,11 +519,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513639738.170998"
+            timestampString = "513723497.066054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "tableView(_:editActionsForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -551,7 +551,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/AuthorPostList.swift"
-                  timestampString = "513661894.025278"
+                  timestampString = "513744675.872434"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "80"
@@ -566,7 +566,7 @@
                   moduleName = "PracticaBoot4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/AuthorPostList.swift"
-                  timestampString = "513661894.034429"
+                  timestampString = "513744675.879436"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "83"
@@ -583,12 +583,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PracticaBoot4/AuthorPostList.swift"
-            timestampString = "513662641.696899"
+            timestampString = "513723497.066054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/New.swift"
+            timestampString = "513723257.181589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "init(snap:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/New.swift"
+            timestampString = "513721768.263568"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(key:title:desc:author:publish:date:rating:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.New.init (key : Swift.String, title : Swift.String, desc : Swift.String, author : Swift.String, publish : Swift.String, date : Swift.String, rating : Swift.Double) -&gt; PracticaBoot4.New"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/New.swift"
+                  timestampString = "513744675.902578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "275">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PracticaBoot4.New.__allocating_init (key : Swift.String, title : Swift.String, desc : Swift.String, author : Swift.String, publish : Swift.String, date : Swift.String, rating : Swift.Double) -&gt; PracticaBoot4.New"
+                  moduleName = "PracticaBoot4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/Documents/mbass/practica/PracticaBoot4-FB-ScoopsEV/PracticaBoot4/New.swift"
+                  timestampString = "513744675.912493"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticaBoot4/PostReview.swift"
+            timestampString = "513744645.661387"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "ratePost(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

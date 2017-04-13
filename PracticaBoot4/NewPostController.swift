@@ -61,7 +61,8 @@ class NewPostController: UIViewController, UIImagePickerControllerDelegate, UINa
                        "desc" : desc as String,
                        "author": userAuth,
                        "publish": "false",
-                       "date": NSDate().description
+                       "date": NSDate().description,
+                       "rating": Double(0)
                 ] as [String : Any]
             
             let recordInFB = ["\(key)" : new]

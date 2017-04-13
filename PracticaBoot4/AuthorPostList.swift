@@ -88,7 +88,8 @@ class AuthorPostList: UITableViewController {
                        "desc" : modelSelec.desc,
                        "author": self.userAuth,
                        "publish": "true",
-                       "date": NSDate().description
+                       "date": NSDate().description,
+                       "rating": modelSelec.rating
                 ] as [String : Any]
             
             let recordInFB = ["\(key)" : new]
