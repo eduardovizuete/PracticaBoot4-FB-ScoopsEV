@@ -17,6 +17,7 @@ class NewPostController: UIViewController, UIImagePickerControllerDelegate, UINa
     
     var userAuth : String = ""
     let newsRef = FIRDatabase.database().reference().child("News")
+    let storage = FIRStorage.storage()
     
     var isReadyToPublish: Bool = false
     var imageCaptured: UIImage! {
@@ -68,6 +69,32 @@ class NewPostController: UIViewController, UIImagePickerControllerDelegate, UINa
             let recordInFB = ["\(key)" : new]
             
             newsRef.child("new").updateChildValues(recordInFB)
+            
+            // Create a storage reference from our storage service
+            let storageRef = storage.reference(forURL: "gs://practicaboot4-fb-scoopsev.appspot.com")
+            
+            let fileName = tit + ".png"
+            
+            // Create a reference
+            let imgRef = storageRef.child(fileName)
+            
+            
+            
+            if imagePost.image != nil {
+                var data = NSData()
+                data = UIImageJPEGRepresentation(imagePost.image!, 0.8)! as NSData
+                // Upload the file to the path "images/rivers.jpg"
+                imgRef.put(data as Data, metadata: nil) { metadata, error in
+                    if (error != nil) {
+                        print("Error al subir archivo \(error?.localizedDescription)")
+                    } else {
+                        // Metadata contains file metadata such as size, content-type, and download URL.
+                        let downloadURL = metadata!.downloadURL
+                        print("URL archivo subido \(downloadURL)")
+                    }
+                }
+            }
+
         }
     }
     
